@@ -1,0 +1,88 @@
+/*colors & btns */
+.bg-red {
+    background-color: #bf1e2e;
+}
+
+.bg-red:hover {
+    background-color: #8c1622;
+    color: #fff
+}
+
+.bg-blue {
+    background-color: #41a6ed;
+}
+
+.bg-blue:hover {
+    background-color: #005aa3;
+    color: #fff;
+}
+
+.bg-dark-blue {
+    background-color: #283891;
+}
+
+.bg-dark-blue:hover {
+    background-color: #1a255e;
+    color: #fff
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-white {
+    background-color: #fff;
+    color: #283891 !important
+}
+.bg-white:hover{
+  background-color: #e6e6e6;
+  color: #000 !important;
+
+
+
+}
+
+.bg-gray {
+    background-color: #f8f8f8 !important;
+    
+}
+
+.defulte-btn {
+    padding: 13px 20px;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-family: OpenSans-Semibold;
+    cursor: pointer;
+}
+
+.border-btn {
+    border: solid 1px #ffffff;
+}
+
+.border-btn:hover {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border: 1px solid transparent
+}
+
+.regular-text {
+    font-family: OpenSans-Regular;
+}
+
+.none-margin {
+    margin: 0
+}
+
+.none-padding {
+    padding: 0;
+}
+
+.p-lg {
+    font-size: 1.03125rem;
+}
+
+.p-small {
+    font-size: 0.9375rem;
+}

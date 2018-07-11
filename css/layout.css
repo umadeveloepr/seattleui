@@ -1,0 +1,827 @@
+/* =========header -inner =======*/
+
+                /*      top-nav     */
+.top-nav .contact{
+    float: right;
+}
+.top-nav .contact span,
+.top-nav .contact .mail a{
+    letter-spacing: -0.4px;
+    font-size: 0.875rem;
+    font-family: OpenSans-Semibold;
+}
+.top-nav .contact>div,
+.top-nav .youtlizer-logo,
+.top-nav ul{
+    display: inline-block;
+}
+.top-nav .contact>div i{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 1.375rem;
+}
+.top-nav .contact .icon-mail-tiny-black-ic{
+    font-size: 1.0625rem;
+}
+.top-nav .contact i.icon-ar-ic-w,
+.top-nav .contact i.icon-en-ic{
+    margin-right: 0;
+    color: #FFF;
+    background-color: #283891;
+    padding: 10px 13px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.top-nav .contact i.icon-en-ic{
+    padding: 10px 10px 10px 11px;
+    margin-left: 12px;
+}
+.top-nav .contact .e-holder{
+    display: none;
+}
+.icon-ar-ic-w:hover{
+    color: #283891;
+    /* background-color: #FFF; */
+}
+.icon-fb-b:hover{
+    color: #3b5998;
+    /* background-color: #FFF; */
+}
+.top-nav{
+    background-color: #fafafa;
+    padding: 20px 5px;
+}
+.top-nav ul{
+    margin-left: 20px;
+}
+.top-nav ul  li a,
+.sec-navb li a{
+    font-family: OpenSans-Semibold;
+    font-size: 0.875rem;
+    color: #000;
+}
+.navbar-collapse{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.navbar{
+    padding-left: 0 !important;
+}
+.top-nav ul li a:hover{
+    cursor: pointer;
+    color: #283891;
+}
+.top-nav ul  li:after{
+    content: "|";
+    padding: 0 20px;
+}
+.sec-navb{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.sec-navb li:after{
+    content: "|";
+    padding: 0 20px;
+}
+.sec-navb li:last-of-type:after{
+    content: "";
+    padding: 0;
+}
+.top-nav ul  li:last-of-type:after{
+    content: "";
+    padding: 0;
+}
+
+                /*      main-nav     */
+
+header nav .responsive-contact{
+    display: none;
+    float: right;
+    line-height: 4.5;
+}
+.collapse.navbar-collapse .responsive-contact{
+    width: 100%;
+    text-align: center;
+}
+header nav .responsive-contact>div{
+    display: inline-block;
+}
+header nav .responsive-contact>div i{
+    font-size: 22px;
+    color: #FFF;
+    background-color: #283891;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+header nav .responsive-contact .icon-instagram-b{
+    padding: 8px;
+    margin-right: 0;
+}
+.navbar-default{
+    border: none;
+    background-color:#fff;
+    margin-bottom: 0;
+}
+.navbar{
+    border: none;
+    background-color:#fff;
+    margin-bottom: 0;
+    padding: 20px;
+    padding-left: 20px !important;
+}
+.navbar-collapse{
+    padding-left: 0;
+    padding-right: 0;
+}
+.youtlizer-logo-menu{
+    display: none;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover{
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a{
+    background-color: transparent;
+    font-family: OpenSans-Semibold;
+    line-height: 3.5;
+    font-size: 0.9375rem;
+    color: #000;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a{
+    color: #283891;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form{
+    border: none;
+}
+.navbar-default .navbar-collapse{
+/*   display: none !important;*/
+}
+.nav.navbar-nav{
+    margin-left: 20px;
+}
+.nav>li>a{
+    padding: 10px 10px;
+}
+.follow-us{
+    display: inline-block;
+    line-height: 3;
+    margin-right: 0;
+}
+.follow-us>a{
+    padding-left: 20px;
+    color: #283891;
+    font-family: OpenSans-Regular;
+    font-size: 1.5625rem;
+}
+.icon-instagram-b:hover{
+     background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+     background: -moz-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+     background: -ms-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+     background: -o-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+      -ms-background-clip: text;
+       -o-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+     -moz-text-fill-color: transparent;
+      -ms-text-fill-color: transparent;
+       -o-text-fill-color: transparent;
+          text-fill-color: transparent;
+}
+
+.follow-us>a:first-of-type{
+    font-size: 0.9375rem;
+    padding-left: 0;
+}
+.follow-us .icon-fb-b{
+    font-size: 1.3rem;
+}
+.navbar-default .navbar-nav>.active>a::before{
+    content: "";
+    background: url(../images/blue-bullet.svg) no-repeat;
+    width:16px;
+    height:15px;
+    display: inline-block !important;
+    margin-right: 15px;
+}
+
+.overlay-content{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.close-btn{
+    color: #283891;
+    font-size: 40px;
+    display: none;
+}
+
+.navbar-default .navbar-toggle{
+    z-index: 999999999
+}
+.navbar-header button{
+    display: none;
+}
+
+
+
+                                                /*        =========  end header=======        */
+
+
+                                                /*     ==========     start banner   ==========     */
+
+.banner{
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 300px;
+}
+.banner-bg{
+    height: 100%;
+    background: url('../images/inner-header-shape.png') no-repeat;
+    background-position:-130px;
+}
+.banner .about{
+    display: inline-block;
+    background-color: rgba(40, 56, 145, 0.9) !important;
+    background: url('../images/inner-header-shape.png') no-repeat;
+    background-position:-130px;
+    height: 100%;
+}
+ .con{
+    display: inline-flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 150px;
+    padding-right: 30px;
+    font-family: Antonio;
+    text-align: center;
+    color: #FFF;
+}
+.banner .about .con::after{
+    content: "Send Inquiry";
+    padding: 12px 18px;
+    background-color: #FFF;
+    color: #283891;
+    font-family: OpenSans-Semibold;
+    font-size: 1.0625rem;
+    position: absolute;
+    bottom: 50px;
+    right: -140px;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+}
+.con span{
+    font-size: 1.75rem;
+    font-family: Antonio;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.con h1{
+    padding-bottom: 10px;
+    line-height: 1.2;
+}
+
+                          /*     ==========     end banner     =========   */
+
+
+
+
+                                    /*=========== footer===========*/
+footer{
+    padding: 12px 20px;
+    background-color: #283891;
+    color: #FFF;
+    position: relative;
+}
+.starwallet .logo{
+    display: inline-block;
+    margin-right: 20px;
+}
+.starwallet p{
+    display: inline-block;
+    font-family: OpenSans-Regular;
+    font-size: 13px;
+    font-weight: 300;
+    padding-top: 15px;
+
+}
+.starwallet p span{
+    font-family: Tahoma;
+    font-size: 14px;
+    line-height: 2;
+}
+footer ul{
+    padding-top: 30px;
+    text-align: right;
+}
+footer ul li:not(:last-of-type){
+    padding-right: 15px;
+}
+footer ul a{
+    font-family: OpenSans-Regular;
+    font-size: 0.875rem;
+    color: #FFF !important;
+}
+footer ul .active{
+    font-size: 0.90625rem;
+    font-weight: bold;
+}
+footer.row,
+.top-nav.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+footer .col-md-5,
+footer .col-md-7{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+                                    /*========== end footer ===========*/
+
+
+                                    /*========== start go chat ===========*/
+
+#go-chat{
+    position: absolute;
+    font-family: OpenSans-Bold;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 20px;
+    background-color: #41a6ed;
+    color: #ffffff;
+    top: -42px;
+    border-radius: 3px 3px 0 0;
+    right: 20px;
+}
+#go-chat img{
+    padding-left: 20px;
+}
+
+                                    /*========== start UAE busniess ===========*/
+
+
+.uae-main .top{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+.uae-main .top #breadcrmb{
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.uae-main .top section:last-of-type{
+    padding-left: 30px;
+}
+.UEABusniess-banner-img{
+    background-image: url(../images/article-1.jpg);
+}
+.uae-main .top h1{
+    color: #000;
+    padding-top: 30px;
+}
+.uae-main .top p:first-of-type{
+    font-size: 1.0625rem;
+    letter-spacing: -0.4px;
+    padding-bottom: 20px;
+    color: #000;
+    font-family: OpenSans-Regular;
+}
+.uae-main .top p:last-of-type{
+    color: #000;
+    font-family: OpenSans-Regular;
+    width: 85%;
+    text-align: left;
+    line-height: normal;
+}
+.UAE-main-content p{
+    line-height: 1.2 !important;
+    margin-left: 0 !important;
+}
+.UAE-main-content{
+    margin-right: 100px;
+}
+.UAE-main-content a{
+    text-transform: lowercase;
+    margin-bottom: 30px;
+}
+
+                                    /*========== start partner page ===========*/
+
+
+.partner-banner-img{
+    background-image: url(../images/become-a-partner.jpg);
+}
+.partner-main,
+.about-main{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+.partner-main #breadcrmb,
+.about-main #breadcrmb{
+    text-align: left;
+}
+.partner-main h1,
+.about-main h1{
+    color: #000;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.partner-main p:first-of-type,
+#establish .p-lg{
+    font-size: 1.0625rem;
+    color: #000;
+    letter-spacing: -0.4px;
+    font-family: OpenSans-Regular;
+}
+.partner-main p:last-of-type,
+#establish .p-small{
+    padding: 20px 0;
+    color: #000;
+    font-family: OpenSans-Regular;
+    line-height: 1.2;
+    width: 85%;
+    margin: auto;
+}
+.partner-main span,
+.about-main span.pms{
+    color: #000;
+    font-family: OpenSans-SemiboldItalic;
+    font-size: 1rem;
+    display: block;
+    padding-bottom: 30px;
+}
+.about-main span.pms{
+    padding-bottom: 0;
+}
+.partners h2,
+.about-main h1,
+.partners .first-slider div:first-of-type p,
+.partners .sec-slider div:first-of-type p{
+    color: #000;
+}
+.slider.partners{
+    background-color: #FFF;
+}
+.partners .stories{
+    padding-top: 20px;
+}
+.establish-main #breadcrmb{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.partnerss.slider{
+    background-color: #fff !important;
+}
+.partnerss .first-slider div:first-of-type p,
+.partnerss h2{
+    color: #000;
+}
+.stories a{
+    margin-top: 20px;
+}
+
+
+
+
+                                    /*========== start about us page===========*/
+
+
+.about-banner-img{
+    background-image: url(../images/AboutUs-Banner-min.jpg);
+}
+.about-main p{
+    padding:0 70px 20px 70px;
+    font-family: OpenSans-Regular;
+    color: #000;
+    text-align: left;
+    line-height: 1.2;
+}
+.about-main span.pms{
+    color: #3d4c9c;
+}
+                        /*      chairman & CEO*/
+
+
+.chairman,
+.ceo{
+    padding: 50px 0;
+    /* padding-left: 20px; */
+}
+.ceo{
+    background-image: url(../images/seattle-light-blue-logo.png);
+    background-repeat: no-repeat;
+    background-position: -94px 190px;
+}
+.chairman img
+.ceo img{
+    display: inline;
+}
+.chairman .about-chair h2,
+.ceo .about-ceo h2{
+    color: #000;
+}
+.chairman .chairman-img,
+ .ceo .ceo-img{
+    max-width: 140px;
+}
+.chairman .about-chair span,
+.ceo .about-ceo span{
+    font-family: OpenSans-Regular;
+    font-style: italic;
+    padding-top: 10px;
+    display: block;
+    color: #000;
+    font-size: 0.9375rem;
+}
+.chairman .about-chair p,
+.ceo .about-ceo p{
+    margin-top: 20px;
+    font-family: OpenSans-Regular;
+    line-height: 1.5;
+    color: #000
+}
+.ceo .about-ceo p{
+    line-height: 1.6;
+    font-size: 0.9375rem;
+}
+.ceo .about-ceo p span{
+    color: #3d4c9c;
+    font-weight: 600;
+}
+.ceo .about-ceo a{
+    font-size: 1.0625rem;
+}
+
+
+
+header .nav>li>a{
+    padding: 10px 7px;
+}
+.follow-us>a{
+    padding-left: 10px;
+}
+.seattle-logo{
+    width: 200px;
+}
+.sec-navb{
+    display: none;
+}
+.our-vision{
+    background-color: #f8f8f8 !important;
+}
+.overlay-menu{
+    display: none;
+}
+
+
+                                    /*========== start about us page===========*/
+
+
+.vision-article > div:last-of-type{
+    padding-top: 30px;
+}
+
+
+                                    /*========== start about us page===========*/
+
+
+
+@media(max-width:1024px){
+    html{
+        font-size: 15px;
+    }
+    .navbar-default .navbar-nav>li>a{
+        font-size: 14px;
+    }
+    .banner .about .con::after{
+        right: -127px;
+    }
+}
+
+@media(min-width:992px){
+    .navbar-default .navbar-collapse{
+        display: block !important;
+    }
+}
+@media(max-width:991.99px){
+
+    html{
+        font-size: 14px;
+    }
+    footer ul{
+        text-align: center !important   ;
+        padding-top: 5px;
+        width: 100%;
+        line-height: 2;
+    }
+    footer .starwallet{
+        text-align: center;
+    }
+    .nav.navbar-nav{
+        display: none;
+    }
+    .top-nav ul{
+        margin-left: 10px;
+    }
+    .top-nav ul li:after{
+        padding: 0 7px;
+    }
+    .top-nav .contact>div i{
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .top-nav .contact.col-sm-6{
+        padding-right: 0;
+    }
+    .navbar-default .navbar-nav>.active>a::before{
+        margin-left: -30px;
+    }
+    .top-nav{
+        background-color: #FFF;
+    }
+    .navbar-toggle .icon-bar+.icon-bar{
+        margin-top:6px;
+    }
+    .navbar-toggle .icon-bar{
+        width: 32px;
+        margin-bottom: 10px;
+    }
+    .navbar-toggle{
+        border: none;
+        position: absolute;
+        top: -60px;
+        right: 10px;
+        margin-right: 0;
+        display: block;
+    }
+    .follow-us,
+    .top-nav .contact{
+        display: none;
+    }
+    .navbar-header,
+    .close-btn{
+        display: inline-block;
+    }
+    .close-btn{
+        padding-bottom: 20px;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    header nav .responsive-contact{
+        display: inline-block;
+    }
+    .navbar-default .navbar-nav>li>a{
+        border-bottom: 1px solid #dadada;
+        max-width: 300px;
+        margin: auto;
+    }
+    .overlay-content{
+        top: 20px;
+    }
+    .youtlizer-logo-menu{
+        display: block;
+        margin-top: 40px;
+    }
+    .youtlizer-logo-menu img{
+        margin: auto;
+        padding-top: 40px;
+    }
+    .overlay-menu{
+        display: block !important;
+        top: -40px;
+        position: absolute;
+        right: 20px;
+    }
+    .sec-navb{
+        display: block;
+    }
+    .vision-img img{
+        width: 80% !important;
+        margin: 0 auto !important;
+    }
+                                        /*========== start UAE page===========*/
+
+
+    .about-main p{
+		text-align: center;
+	}
+	.uae-main .top p:last-of-type{
+		width: 100%;
+		padding-right: 50px;
+		text-align: center;
+	}
+	.UAE-main-content{
+		margin-right: 0;
+        padding-bottom: 50px !important;
+	}
+
+                                        /*========== start about page===========*/
+
+
+    .our-vision{
+        background: none !important;
+        margin-right: 50px !important;
+        margin-left: 15px !important;
+        width: 100% !important;
+    }
+    .vision-img{
+        position: relative !important;
+        width: 100% !important;
+        height: 100% !important;
+        left: auto !important;
+
+    }
+    .vision-article > div p{
+        padding-right: 0 !important;
+    }
+    .vision-article{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .vision-a{
+        padding-top: 0 !important;
+    }
+    .chairman, .ceo{
+        text-align: center;
+    }
+    .chairman .chairman-img, .ceo .ceo-img{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .cheklist-main{
+        text-align: center;
+    }
+    .top #breadcrmb{
+        text-align: left;
+    }
+    .contact-us{
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+    .cheklist-main .top p{
+        max-width: 100% !important;
+    }
+    .cheklist-main .content{
+        text-align: left;
+    }
+}
+
+
+
+
+@media(max-width:767.99px){
+    html{
+        font-size: 14px;
+    }
+    .banner .about{
+        display: none;
+    }
+    .youtlizer-logo-menu{
+        display: block;
+        margin-top: 40px;
+    }
+    .vision-article > div{
+        padding-top: 50px !important;
+    }
+    .ceo{
+        background-position: -94px 18px;
+    }
+    .about-main{
+        padding-bottom: 0;
+    }
+}
+
+@media(max-width:555px){
+    .top-nav,
+    .responsive-contact.menu-out{
+        display: none !important;
+    }
+    .navbar-toggle{
+        top: 22px;
+    }
+    .overlay-menu{
+        top:30px;
+    }
+}

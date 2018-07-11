@@ -1,0 +1,128 @@
+
+@font-face {
+	src: url(../fonts/Antonio-Bold.ttf);
+	font-family: Antonio;
+}
+
+@font-face {
+	src: url(../fonts/OpenSans-Bold.ttf);
+	font-family: OpenSans-Bold;
+}
+
+@font-face {
+	src: url(../fonts/OpenSans-Semibold.ttf);
+	font-family: OpenSans-Semibold;
+}
+
+@font-face {
+	src: url(../fonts/OpenSans-SemiboldItalic.ttf);
+	font-family: OpenSans-SemiboldItalic;
+}
+
+@font-face {
+	src: url(../fonts/OpenSans-Regular.ttf);
+	font-family: OpenSans-Regular;
+}
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  background-color:#f4f4f4;
+  width: 7px; }
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background-color: #283891; }
+
+
+
+
+html{font-size: 16px;
+	overflow-x: hidden
+}
+body {
+	line-height: 1;
+	overflow-x: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+a{
+    color: #000;
+}
+a:hover,
+a:focus{
+    text-decoration: none;
+}
+.navbar-expand-lg,.navbar-expand{
+    flex-wrap: wrap !important;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+p{
+	  font-size: 0.9375rem;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+	font-size: 2.5rem;
+	font-family: Antonio;
+	padding-top: 20px;
+	font-weight: 400;
+	padding-bottom: 20px;
+}
+
+h2{
+	font-size:1.75rem;
+	font-family: Antonio;
+	font-weight: 400;
+
+}
+
+a {
+	font-size: 0.9375rem;
+}
+
+a:active {
+	color: #fff;
+	text-decoration: none;
+}

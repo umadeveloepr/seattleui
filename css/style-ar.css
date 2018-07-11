@@ -1,0 +1,979 @@
+/*about us page*/
+
+/* @font-face {
+	src: url(../fonts/Cairo.ttf);
+	font-family: cairo;
+} */
+/*       ========   start about ===========       */
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+ html,body{
+  font-family: 'Cairo', sans-serif;
+ }
+a {  font-family: 'Cairo', sans-serif !important;}
+#help-icon span {
+    margin-right: -7px;
+}
+
+.about-banner-p{
+    background-position: -45%;
+}
+.cheklist-banner-p{
+    background-position: -120% !important;
+}
+.partner-banner-p{
+    background-position: -100% !important;
+}
+.banner .about .con::after{
+    border-radius: 3px 0 0 3px;
+}
+footer ul{
+    text-align: left;
+}
+
+/*          end about        */
+/*          start our-vision        */
+.our-vision {
+    margin-right: auto;
+    margin-left: 50px;
+
+
+}
+.r-about{
+  background-position: -117% !important;  
+}
+.business-white {
+    padding: 30px 30px 30px 100px;
+}
+.l-man{
+  -moz-transform: scaleX(-1);
+ -o-transform: scaleX(-1);
+ -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+}
+.vision-article > div p {
+    padding-left: 85px;
+}
+
+.vision-img {
+    right: -5%;
+    left: auto;
+}
+
+.send-inquery a:first-child {
+    border-radius: 0px 5px 0px 0px;
+}
+
+.active-a::before {
+    margin-left: 10px;
+    margin-right: auto;
+}
+.side-hero{
+padding-left: 25px;
+}
+.white-btn {
+    border-radius: 3px 0px 0px 3px;
+}
+.partner{
+  display: table-cell;
+  float: none
+}
+.c-partner{
+  padding-top: 52px !important
+}
+.sec-slider h2,.first-slider h2{
+  display: flex;
+  align-items: center;
+}
+/*          end our-vision        */
+
+/*          start contact        */
+
+.contact-us .content h2 {
+    font-family: Antonio;
+    font-size: 2.8125rem;
+    color: #000;
+}
+
+
+
+
+.contact-us .content span {
+    text-align: right;
+    left: 20px;
+    right: auto;
+}
+/* ============== end about  us =============*/
+
+/*==============home page ==============*/
+/* start  hero section */
+
+
+
+
+
+
+
+
+
+
+
+.taps-holder {
+    left: 0;
+    right: auto;
+}
+
+
+
+.three-taps a {
+    margin-left: 1px;
+}
+
+
+
+
+
+
+.send-inquery {
+    text-align: left;
+}
+
+.send-inquery a:first-child {
+    margin-left: -4px;
+}
+
+
+
+
+/*responsive-hero*/
+
+
+
+
+
+
+.responsive-hero .three-taps a{
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+/*==============checklist page ==============*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content .L-sec h3::before,
+.UAE-main-content h3::before{
+    margin-left: 20px;
+}
+
+.content .L-sec p,
+.UAE-main-content p{
+    margin-right: 35px;
+}
+
+
+.R-sec img {
+    margin-right: 15px;
+}
+
+
+
+
+.float-img {
+    right: -31%;
+    left: auto;
+}
+
+
+
+
+
+
+
+
+.new-holder {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+.social-btn a:first-of-type {
+    margin-left: 5px
+}
+
+/* end hero section */
+
+/* start business section */
+
+
+
+
+
+.bullet-header::before {
+    margin-left: 20px;
+}
+
+
+
+.business-white p {
+    padding-right: 40px;
+}
+
+.business-white a {
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+/*end business section */
+
+/* start service section*/
+
+
+
+.top-service img {
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+.tringle {
+    border-right: 910px solid transparent;
+    border-left: none;
+}
+
+
+.after-tringle h4::before {
+    margin-left: 20px;
+}
+
+
+.after-tringle p {
+    padding-right: 35px;
+}
+
+.after-tringle a {
+    margin-right: 40px;
+}
+
+/* end service section*/
+
+/* strat hire-expert section */
+
+
+
+
+
+
+
+
+
+.r-hire a:first-of-type {
+    margin-left: 5px
+
+}
+
+/* end hire-expert section*/
+
+
+/* strat our-partners section */
+
+
+
+
+.eng-saeed{
+  border-right: 5px solid #fff;
+}
+
+
+
+/*end our-partners section */
+
+/*start slider section  */
+
+
+
+
+
+
+.first-slider a{
+    padding-right: 10px;
+}
+
+
+.c-carousel-indicators{
+  left: 0;
+  right: auto;
+}
+
+
+
+
+
+
+
+
+
+.sec-slider a{
+  padding-right: 10px;
+}
+
+
+/* end slider section */
+
+.fixed{
+  left: -60px;
+  right: auto;
+}
+.c-fixed{
+  left: -60px;
+  right: auto;
+}
+
+
+
+.scroll .icon-dowen-arrow{
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+.r-hire h1 img{
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+
+.none-padding{
+  padding: 0
+}
+.contact-form select {
+    background-position: 10%;
+}
+.only-slider{
+  margin-right: auto;
+  margin-left: auto;
+}
+.top-nav .contact{
+text-align: left;}
+
+.banner .about{
+  background-position:-47%;
+
+}
+#request select {
+    background-position: 10% !important;
+}
+.hafe .col-md-8 {
+    background-position: -25% 20%;
+    padding: 50px 40px 50px 80px;
+
+
+}
+.top-nav .contact i.icon-en-ic{
+  margin-left: auto;
+  margin-right: 12px;
+}
+.question {
+    background-position: 97%;
+}
+.uae-main .top #breadcrmb {
+    padding-right: 50px;
+}
+.uae-main .top p:last-of-type {
+    text-align: right;
+}
+.partner-main #breadcrmb, .about-main #breadcrmb {
+    text-align: right;
+    padding-right: 50px;
+}
+#breadcrmb i {
+    transform: rotate(90deg);
+}
+.ceo{
+  background-position: 107% 190px;
+
+}
+.contact-us {
+    background-position: 100%;
+}
+.banner-bg{
+  background-image: none;
+}
+.top-nav .contact{
+  text-align: left;
+}
+
+.go-chat{
+  left: 0;
+  right: auto;
+}
+
+
+/*=============end home page   =================*/
+
+/*=======================start seattle service page ==================*/
+
+
+
+.hafe{
+  float: left;
+}
+.box-img{
+  right: -11%;
+    height: 274px;
+    left: auto;
+}
+
+
+.hafe .col-md-8 img{
+  margin-left: 20px;
+}
+
+
+
+.c-main .top{
+  padding-right: 0 !important
+}
+
+
+
+.service-slider h5{
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+/*=======================end seattle service page ===============*/
+
+/*=======================start success Stories page ===============*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=======================end success Stories page ===============*/
+
+/* Start Establish Your Company */
+
+
+
+
+
+
+
+#start_business {
+    padding-right: 50px;
+}
+
+
+#start_business i {
+    padding-left: 22px;
+}
+
+
+
+
+
+#start_business .business_ideas ul {
+    padding-right: 44px;
+}
+
+
+#start_business .idea a {
+    margin-right: 44px;
+}
+
+#start_business img {
+    float: left;
+}
+
+
+
+
+
+#request .request_form label {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End Establish Your Company */
+
+
+/* Start Contact Us */
+
+
+
+
+
+
+
+
+
+
+
+.r-contact-form i{
+  margin-left: 25px;
+}
+
+
+
+.contact-form input{
+  padding-right:20px;
+}
+.contact-form select{
+  padding-right:20px;
+}
+
+
+
+
+/* End Contact Us */
+
+
+
+//////////////////////////////
+/* =========header -inner =======*/
+
+                /*      top-nav     */
+.top-nav .contact{
+    float: left;
+}
+
+
+.top-nav .contact>div i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.top-nav .contact i.icon-ar-ic-w{
+    margin-left: 0;
+}
+
+
+
+
+.top-nav ul{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+                /*      main-nav     */
+
+header nav .responsive-contact{
+    float: left;
+}
+
+
+header nav .responsive-contact>div i{
+    margin-left: 5px;
+}
+header nav .responsive-contact .icon-instagram-b{
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
+.nav.navbar-nav{
+    margin-right: 20px;
+}
+
+.follow-us{
+    line-height: 3;
+    margin-left: 0;
+}
+.follow-us>a{
+    padding-right: 20px;
+}
+
+.follow-us>a:first-of-type{
+
+    padding-right: 0;
+}
+
+.navbar-default .navbar-nav>.active>a::before{
+    margin-left: 15px;
+}
+
+
+
+
+                                                /*        =========  end header=======        */
+
+
+                                                /*     ==========     start banner   ==========     */
+
+
+
+.banner .about .con{
+    padding-right: 150px;
+    padding-left: 30px;
+
+}
+.banner .about .con::after{
+    left: -140px;
+    right: auto;
+}
+
+
+
+                          /*     ==========     end banner     =========   */
+
+
+
+
+
+.starwallet .logo{
+    margin-left: 20px;
+}
+
+
+
+footer ul li:not(:last-of-type){
+    padding-left: 15px;
+}
+
+
+
+
+
+
+                                    /*========== end footer ===========*/
+
+
+                                    /*========== start go chat ===========*/
+
+#go-chat{
+    text-align: right;
+    left: 20px;
+    right: auto;
+}
+#go-chat img{
+    padding-right: 20px;
+}
+
+                                    /*========== start UAE busniess ===========*/
+
+
+.uae-main .top{
+    padding-right: 20px;
+}
+
+.uae-main .top section:last-of-type{
+    padding-right: 30px;
+}
+
+
+
+
+.UAE-main-content p{
+    margin-right: 0 !important;
+}
+.UAE-main-content{
+    margin-left: 100px;
+}
+
+                                    /*========== start partner page ===========*/
+
+
+
+.partner-main,
+.about-main{
+    padding-right: 20px;
+}
+.partner-main #breadcrmb,
+.about-main #breadcrmb{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+.establish-main #breadcrmb{
+    padding-right: 50px;
+}
+
+
+#start_business .idea p{
+  display: flex;
+}
+#request {
+    background-position-x: 131%;
+}
+
+#request .right-bg {
+    background-position-x: -6.6%;
+}
+                                    /*========== start about us page===========*/
+    #request .concerns textarea {
+        padding: 21px 40px 0 24px;
+    }
+
+.uae-main .top #breadcrmb{
+  padding-right: 30px;
+  padding-left: auto;
+}
+.about-main p{
+    text-align: right;
+}
+.about-main span.pms{
+    color: #3d4c9c;
+}
+                        /*      chairman & CEO*/
+
+
+.chairman,
+.ceo{
+    padding-right: 20px;
+}
+
+
+.nav.navbar-nav{
+    margin-left: 8px !important;
+}
+
+
+
+
+
+.follow-us>a{
+    padding-right: 10px;
+}
+
+
+
+
+
+                                    /*========== start about us page===========*/
+
+
+                                    /*========== start about us page===========*/
+
+
+
+@media(max-width:1024px){
+    .banner .about .con::after{
+        left: -127px;
+        right: auto;
+    }
+
+    .cheklist-banner-p{
+        background-position: -97% !important;
+    }
+    .partner-banner-p{
+        background-position: -81% !important;
+    }
+    .banner .about{
+        background-position: -40%;
+    }
+}
+
+
+@media(max-width:991.99px){
+
+
+
+
+    .top-nav ul{
+        margin-right: 10px;
+    }
+
+
+    .top-nav .contact.col-sm-6{
+        padding-left: 0;
+    }
+    .navbar-default .navbar-nav>.active>a::before{
+        margin-right: -30px;
+    }
+
+
+
+    .navbar-toggle{
+        left: 10px;
+        right: auto;
+        margin-left: 0;
+
+    }
+
+
+
+    .overlay-menu{
+        left: 20px;
+        right: auto;
+    }
+
+
+                                        /*========== start UAE page===========*/
+
+
+	.uae-main .top p:last-of-type{
+		padding-left: 50px;
+	}
+	.UAE-main-content{
+		margin-left: 0;
+	}
+
+                                        /*========== start about page===========*/
+
+
+    .our-vision{
+        margin-left: 50px !important;
+        margin-right: 15px !important;
+    }
+    .vision-img{
+        right: auto !important;
+        left: auto;
+    }
+    .vision-article > div p{
+        padding-left: 0 !important;
+    }
+
+
+
+
+    .top #breadcrmb{
+        text-align: right;
+    }
+
+
+
+}
+
+
+@media(max-width:1250px){
+.tringle{
+  border-right: 587px solid transparent !important;
+}
+
+
+}
+@media(max-width:1200px){
+.middle-side{
+  padding: 0;
+  padding-top: 40px;
+}
+.hafe .col-md-8 h2{
+  font-size: 1.5rem
+}
+
+
+}
+
+@media(max-width:992px){
+
+
+
+
+
+.only-slider{
+  margin-right: 0;
+}
+
+.hafe .col-sm-12{
+  margin-right: 0;
+}
+
+
+
+
+
+
+
+}
+
+@media(max-width:555px){
+
+
+.responsive-hero .responsive-header .top-header {
+float: left;
+right: auto;
+}
+
+}
